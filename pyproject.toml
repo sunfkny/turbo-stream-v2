@@ -1,0 +1,17 @@
+[project]
+name = "turbo-stream-v2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "sunfkny", email = "30853461+sunfkny@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    # https://nodejs.org/en/blog/release/v22.18.0#type-stripping-is-enabled-by-default
+    "nodejs-wheel-binaries>=22.18.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.6,<0.12.0"]
+build-backend = "uv_build"
